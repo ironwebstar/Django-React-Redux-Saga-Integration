@@ -1,0 +1,13 @@
+td {
+ text-align: center; 
+}
+.ant-table-thead > tr > th {
+  text-align: center; 
+  padding-right: 22px;
+}
+td:nth-child(3) {
+  text-align: left; 
+}
+td:nth-child(7) {
+  text-align: left; 
+}
