@@ -193,7 +193,7 @@ class Revenue extends Component {
     const data = this.props.data.income
     
     const filterData2 = data.filter(
-      item => item.name.toLowerCase().indexOf(filterName.toLowerCase()) !== -1
+      item => item.client_name.toLowerCase().indexOf(filterName.toLowerCase()) !== -1
     )
     this.setState({
       filterData: filterData2
