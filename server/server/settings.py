@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vjv&l+e7u-s3v!uyxz_^h-zc@_w1wbp^8++atxkn_scaghpi2f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 CORS_ORIGIN_WHITELIST = ["*"]
@@ -88,8 +88,8 @@ WSGI_APPLICATION = 'server.wsgi.application'
 #     }
 # }
 
-SECRET_KEY = config('SECRET_KEY') 
-DEBUG = config('DEBUG', default=False, cast=bool)
+# SECRET_KEY = config('SECRET_KEY') 
+# DEBUG = config('DEBUG', default=False, cast=bool)
 
 DATABASES = { 
     'default': dj_database_url.config( 
