@@ -14,7 +14,7 @@ djangorestframework-filters==0.10.2
 gunicorn==19.9.0
 idna==2.8
 itypes==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.1.0
 pep8==1.7.1
 psycopg2==2.7.7
